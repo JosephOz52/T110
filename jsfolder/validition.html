@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS validition</h1>
+    <form action="" name="myForm" onsubmit="return validitionForm()">
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" id="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+
+<h1>JS validation example 2</h1>
+<p>Please input a number between 1-10</p>
+<button type="button" onclick="myFunction()">Submit number:</button>
+<input type="text" name="" id="Number">
+<p id="demo"></p>
+
+<script>
+    function validitionForm(){
+       let x = document.forms["myForm"]["fname"].value;
+       if(x==""){
+        alert("Name field cannot be blank")
+        return false;
+       }
+    }
+
+    function myFunction(){
+     let y = document.getElementById("Number").value; 
+     //check if y is not number or less than 10 and greater than 1
+     let text;
+     if(isNaN(y)||y<1||y>10){
+       // alert("Please input number between 1 and 10")
+        text = "Input not valid"
+     }else{
+        text = "Input is OK"
+     }
+     document.getElementById("demo").innerHTML=text;
+    }
+    
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+div{border: solid 2px darkcyan;
+}
+#classnote{
+    height: 300px;
+    width: 500px;
+}
+#advance{
+    background-image: url(/bGoF3Nv.jpg);
+    color: red;
+}
+h5{color: deeppink;
+font-size: 18px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-shadow: 10px 10px 2px black;
+}
+#box{
+    box-shadow: 10px 10px lightcoral;
+}
+.hvr{color: aqua;
+    background-color: aliceblue;
+    }
+.hvr:hover{ color: red;
+            background-color: bisque;
+            cursor: help;}
+.specofoty{ background-color: antiquewhite;
+color: black;}
+#form{background-color: green;}
+#element{
+    background-color: honeydew;
+}
+#types{
+    background-color: yellow;
+}
+#formexmp{background-color: aqua;
+}
+#form{
+    border: solid 3px yellow;
+}
+#form1:hover{ background-color: lightblue;
+
+}

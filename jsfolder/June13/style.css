@@ -1,0 +1,21 @@
+#dom{
+    background-color: chartreuse;
+}
+#step1{
+    background-color: blueviolet;
+}
+#step2{
+    background-color: aqua;
+}
+#step3{
+    background-color: yellow;
+}
+#practice1{
+    background-color: tomato;
+}
+.style{
+    color: aqua;
+    background-color: ivory;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

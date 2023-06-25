@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>#CSSexample{
+        background-color: cyan;
+    } body{background-color: red;
+    } </style>
+    <link rel="stylesheet" href="/May26/style.css">
+</head>
+<body>
+    <div style="background-color: goldenrod;">
+<h3>Review:</h3>
+<ul>
+    <li>CSS:
+        <ol>
+        <li>INline: style attribute</li>
+        <li>Internal CSS: put style element in head section</li>
+        <li>External CSS: Create style file, then by using link element link css to html</li>
+        </ol>
+        <h5 id="CSSexample">Example:</h5>
+        Apply inline styling to review <br>
+        Given an id to this h5 to apply Internal CSS <br>
+        Create css file then by using link element, link this with your index html
+    </li>
+    <li>HTML Iframe:</li>
+    <h5>Example:For more courses check following page:</h5>
+    <iframe src="https://wisequarter.com/" frameborder="0" height="300" width="500"></iframe>
+    Our class notes: <br>
+    <iframe src="/May26/index.html" frameborder="0" id="classnote"></iframe>
+    <li>HTML Table: table, tr, td, th ; attribute rowspan, colspan</li>
+    <h5>Example: Create 5 col, 10 row table</h5>
+
+
+</ul>
+    <div id="advance">
+        <h3>Advanced CSS:</h3>
+        <ol>
+        <li>CSS background photo:You can add background photo by using background imagi property of css.</li>
+        <h5>Example: Add background imagi to this div</h5>
+        <li>CSS Shadow Effect: use text shadow property to apply shadow your content</li>
+        <h5>Example:  LEts style all h5 and add shadow to text</h5>
+        <li>CSS box-shadow: is used to add one or more shadow</li>
+        <h5 id="box">Example: Lets add Box Shadow</h5>
+        <li class="hvr">CSS: hover selector:select element when mouse come over</li>
+        <p class="hvr">Did you see i change whenever you get close to me</p>
+        <li>CSS Specifity:IF there are two or more CSS rules that point same
+            element, the selector with highest specifity value will win, then 
+            its tyling rule wil be appliedd.
+        </li>
+        <h4>Inline CSS ==> ID ==> Class ==> Tag/h4</h4>
+        <p class="specofoty">Lets see which styling will be applied to that p element</p>
+        <p class="specofoty">This is another p element</p>
+        <p class="specofoty">This is another p element</p>
+        <p>P element without class</p>
+        </ol>
+    </div>
+    </div>
+    <div id="form"><h3>HTML Forms: </h3>
+        <p>HTML forms is used to collect user input/data. THe user inpt is most often sent to a server for processing.
+        </p>
+    </div>
+    <div id="element"><h3>HTML Common Elements:</h3>
+        <ul>
+            <li>input: define input data type by using type attribute</li>
+            <li>label: define a label for input element</li>
+            <li>textarea:define multiple line input control</li>
+            <li>fieldset: groups related fileds</li>
+            <li>legend: define a capation for fieldset</li>
+            <li>select: define a dropdown list</li>
+            <li>option: define fn option in a dropdown</li>
+            <li>optgroup:define a group of related options in dropdown.</li>
+        </ul>
+    </div>
+    <div><h3>HTML Common Attributes:</h3>
+    <ul><li>type: define data type input element</li>
+    <li>autocomplete: whether a form should have autocomplete off or on</li>
+    <li>placeholder:</li>
+    </ul>
+    </div>
+    <div id="types"><h3>HTML inputs:</h3>
+    <ul><li>text: define a single line text input (string)</li>
+    <li>password: define field type as an password</li></ul></div>
+    <li>submit: define a button to send server</li>
+    <li>reset: define a button that will reset whole form</li>
+    <li>radio: define a radio button. this let user to select only one option</li>
+    <li>checkbox: define checkbox</li>
+    <li>date: define input as a data</li>
+    <li>button: define button</li>
+    <li>motnh, week, time</li>
+    <li>tel: define a phone number</li>
+    <li>file: it will let user to submit files</li>
+    <li>range: define a control for number or color etc</li>
+    <li>email:</li>
+    <div id="formexmp"><h5>Example1:</h5>
+        <p>create a login form:</p>
+        <form action="" id="form1" style="background-color: wheat;">
+            <p>Please Login: </p>
+            <label for="name">User Name: </label>
+            <input type="text" name="user name" id="name" autocomplete="on
+            "placeholder="someone@mail.com">
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass"> <br>
+            <input type="button" name="Login" id="" value="Login">
+            <input type="button" name="" id="" value="Create Account">
+
+        
+        </form>
+
+
+
+
+
+
+
+    <h5>Example2:A form to create an account: </h5>
+    <form action="">
+        <p>Create an account</p>
+        <fieldset>
+            <legend>Personel information:</legend>
+            <label for="name">First Name:</label>
+            <input type="text" name="" id="name"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="" id="lname"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email"><br>
+            <input type="radio" name="gender" id="m">
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="f">
+            <label for="f">Female</label>
+        </fieldset> 
+
+        <fieldset>
+            <legend>Education:</legend>
+            <p>Please select all education that apply to you.</p>
+            <input type="checkbox" name="high" id="h" value="high schoole">
+            <label for="h">High School</label>
+            <input type="checkbox" name="under" id="under" value="undergrad">
+            <label for="under">Undergrad</label>
+            <input type="checkbox" name="master" id="master" value="Master">
+            <label for="master">Master</label>
+            <input type="checkbox" name="phd" id="phd">
+            <label for="phd">P.hd</label>
+            <label for="file">Please provide proof for your education:</label>
+            <input type="file" name="file" id="file">
+            <label for="range">Please select your height in cm:</label>
+            <input type="range" name="" id="" min="50" max="100">
+            <label for="country">Pick Your Country</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="UK"></option>
+                <option value="Germany"></option>
+                <option value="France"></option>
+                <option value="Turkiye"></option>
+            </select>
+            <label for="color">Please select your desired colors:</label>
+            <input type="color" name="" id="color"><br>
+            <textarea name="textarea" id="" cols="30" rows="5">Please provide more information:</textarea><br>
+            <input type="reset" name="" id="" style="background-color: red;">
+            <input type="submit" name="" id="">
+        </fieldset>
+        
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div>
+    <h3>Java Script:</h3>
+    <ul>
+        <li>Internal: by using script element apply JS to HTML</li>
+        <li>External: by using JS file, the nuse script element with src attribute to link your JS and HTML</li>
+        <li>Common use of JS in HTML: manipulate image,text,form validation, add dynamic changes of content etc.</li>
+
+    </ul>
+
+    <h5>Example of JS: </h5>
+    <button onclick="document.getElementById('testjs').innerHTML=Date()">Try me...</button>
+    <p>To get today date click on that button:</p>
+    <p id="testjs"></p>
+
+    <h5>Example2:</h5>
+    <p id="example2">This content will be changed when you click on that button</p>
+
+</div>
+
+<script>
+  let elementP = document.getElementById('example2');
+  elementP.innerHTML = 'This text come from java script';
+</script>
+ 
+</body>
+</html>
